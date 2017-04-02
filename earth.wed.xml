@@ -9211,7 +9211,7 @@
                 <child id="1012"/>
             </children>
             <hierarchy hidden="0" locked="0" name="tile2-3.tif"/>
-            <draped_orthophoto resource="texture\tile2-3.tif"/>
+            <draped_orthophoto resource="textures\tile2-3.tif"/>
         </object>
         <object class="WED_Ring" id="1012" parent_id="1011">
             <sources/>
@@ -9263,7 +9263,7 @@
                 <child id="1018"/>
             </children>
             <hierarchy hidden="0" locked="0" name="tile2-4.tif"/>
-            <draped_orthophoto resource="texture\tile2-4.tif"/>
+            <draped_orthophoto resource="textures\tile2-4.tif"/>
         </object>
         <object class="WED_Ring" id="1018" parent_id="1017">
             <sources/>
@@ -9315,7 +9315,7 @@
                 <child id="1024"/>
             </children>
             <hierarchy hidden="0" locked="0" name="tile3-3.tif"/>
-            <draped_orthophoto resource="texture\tile3-3.tif"/>
+            <draped_orthophoto resource="textures\tile3-3.tif"/>
         </object>
         <object class="WED_Ring" id="1024" parent_id="1023">
             <sources/>
@@ -9367,7 +9367,7 @@
                 <child id="1030"/>
             </children>
             <hierarchy hidden="0" locked="0" name="tile3-4.tif"/>
-            <draped_orthophoto resource="texture\tile3-4.tif"/>
+            <draped_orthophoto resource="textures\tile3-4.tif"/>
         </object>
         <object class="WED_Ring" id="1030" parent_id="1029">
             <sources/>
@@ -9432,7 +9432,7 @@
                 <child id="1037"/>
             </children>
             <hierarchy hidden="0" locked="0" name="tile4-3.tif"/>
-            <draped_orthophoto resource="texture\tile4-3.tif"/>
+            <draped_orthophoto resource="textures\tile4-3.tif"/>
         </object>
         <object class="WED_Ring" id="1037" parent_id="1036">
             <sources/>
@@ -9484,7 +9484,7 @@
                 <child id="1043"/>
             </children>
             <hierarchy hidden="0" locked="0" name="tile4-4.tif"/>
-            <draped_orthophoto resource="texture\tile4-4.tif"/>
+            <draped_orthophoto resource="textures\tile4-4.tif"/>
         </object>
         <object class="WED_Ring" id="1043" parent_id="1042">
             <sources/>
