@@ -41,7 +41,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="2439"/>
+                <sel id="2445"/>
             </selection>
         </object>
         <object class="WED_KeyObjects" id="3" parent_id="1">
@@ -6888,15 +6888,9 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="2140"/>
-                <child id="2139"/>
-                <child id="2138"/>
-                <child id="2137"/>
-                <child id="2136"/>
-                <child id="2135"/>
-                <child id="2134"/>
-                <child id="2133"/>
-                <child id="2132"/>
+                <child id="2445"/>
+                <child id="2444"/>
+                <child id="2443"/>
                 <child id="2439"/>
                 <child id="751"/>
             </children>
@@ -16369,7 +16363,7 @@
             <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.974305482" longitude="-96.835171878" split="0"/>
             <facade_node wall_type="Wall 1"/>
         </object>
-        <object class="WED_ObjPlacement" id="2132" parent_id="752">
+        <object class="WED_ObjPlacement" id="2132" parent_id="2442">
             <sources/>
             <viewers/>
             <children/>
@@ -16377,7 +16371,7 @@
             <point heading="-23.63" latitude="32.969504905" longitude="-96.834899899"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/GPU_1.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="2133" parent_id="752">
+        <object class="WED_ObjPlacement" id="2133" parent_id="2442">
             <sources/>
             <viewers/>
             <children/>
@@ -16385,7 +16379,7 @@
             <point heading="-20.56" latitude="32.971322945" longitude="-96.835886425"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/GPU_1.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="2134" parent_id="752">
+        <object class="WED_ObjPlacement" id="2134" parent_id="2442">
             <sources/>
             <viewers/>
             <children/>
@@ -16393,7 +16387,7 @@
             <point heading="-21.37" latitude="32.967475420" longitude="-96.834092233"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/GPU_1.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="2135" parent_id="752">
+        <object class="WED_ObjPlacement" id="2135" parent_id="2442">
             <sources/>
             <viewers/>
             <children/>
@@ -16401,7 +16395,7 @@
             <point heading="70.35" latitude="32.967526423" longitude="-96.834113972"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Belt_Loader.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="2136" parent_id="752">
+        <object class="WED_ObjPlacement" id="2136" parent_id="2442">
             <sources/>
             <viewers/>
             <children/>
@@ -16409,7 +16403,7 @@
             <point heading="68.96" latitude="32.967570174" longitude="-96.834137619"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Luggage_Truck.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="2137" parent_id="752">
+        <object class="WED_ObjPlacement" id="2137" parent_id="2442">
             <sources/>
             <viewers/>
             <children/>
@@ -16417,7 +16411,7 @@
             <point heading="75.26" latitude="32.967602403" longitude="-96.834187871"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Tow_Tractor_2.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="2138" parent_id="752">
+        <object class="WED_ObjPlacement" id="2138" parent_id="2442">
             <sources/>
             <viewers/>
             <children/>
@@ -16425,7 +16419,7 @@
             <point heading="71.56" latitude="32.969523763" longitude="-96.834846140"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Tow_Tractor_2.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="2139" parent_id="752">
+        <object class="WED_ObjPlacement" id="2139" parent_id="2442">
             <sources/>
             <viewers/>
             <children/>
@@ -16433,7 +16427,7 @@
             <point heading="74.58" latitude="32.969552775" longitude="-96.834756230"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Tug660_Dn_1.obj" show_level="1 Default"/>
         </object>
-        <object class="WED_ObjPlacement" id="2140" parent_id="752">
+        <object class="WED_ObjPlacement" id="2140" parent_id="2442">
             <sources/>
             <viewers/>
             <children/>
@@ -18210,6 +18204,7 @@
                 <child id="749"/>
                 <child id="759"/>
                 <child id="660"/>
+                <child id="2442"/>
                 <child id="752"/>
                 <child id="9"/>
                 <child id="754"/>
@@ -18439,9 +18434,49 @@
             <sources/>
             <viewers/>
             <children/>
-            <hierarchy hidden="0" locked="0" name="New Ramp Start 4"/>
+            <hierarchy hidden="0" locked="0" name="Commercial Ramp"/>
             <point heading="250.46" latitude="32.966248998" longitude="-96.832901154"/>
             <ramp_start airlines="" ramp_op_type="General Aviation" traffic="15" type="Tie-Down" width="D"/>
+        </object>
+        <object class="WED_Group" id="2442" parent_id="2413">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2133"/>
+                <child id="2132"/>
+                <child id="2140"/>
+                <child id="2136"/>
+                <child id="2135"/>
+                <child id="2134"/>
+                <child id="2139"/>
+                <child id="2138"/>
+                <child id="2137"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Ramp Vehicle"/>
+        </object>
+        <object class="WED_RampPosition" id="2443" parent_id="752">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Hold Short Rwy 36"/>
+            <point heading="160.24" latitude="32.961459277" longitude="-96.832299807"/>
+            <ramp_start airlines="" ramp_op_type="None" traffic="63" type="Misc" width="E"/>
+        </object>
+        <object class="WED_RampPosition" id="2444" parent_id="752">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Hold Short Rwy 18"/>
+            <point heading="337.29" latitude="32.977627074" longitude="-96.839385284"/>
+            <ramp_start airlines="" ramp_op_type="None" traffic="63" type="Misc" width="E"/>
+        </object>
+        <object class="WED_RampPosition" id="2445" parent_id="752">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="GA Ramp "/>
+            <point heading="91.85" latitude="32.959405163" longitude="-96.837689612"/>
+            <ramp_start airlines="" ramp_op_type="None" traffic="14" type="Misc" width="C"/>
         </object>
     </objects>
     <prefs>
@@ -18450,7 +18485,6 @@
             <item value="11"/>
             <item value="660"/>
             <item value="749"/>
-            <item value="752"/>
             <item value="754"/>
             <item value="757"/>
             <item value="759"/>
@@ -18463,19 +18497,19 @@
             <item value="2074"/>
             <item value="2411"/>
             <item value="2412"/>
-            <item value="2413"/>
+            <item value="2442"/>
         </pref>
         <pref name="doc/export_target" value="3"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-96.832144"/>
-        <pref name="map/north" value="32.967790"/>
+        <pref name="map/east" value="-96.836734"/>
+        <pref name="map/north" value="32.960356"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="32.965456"/>
+        <pref name="map/south" value="32.958907"/>
         <pref name="map/vertices_vis" value="0"/>
-        <pref name="map/west" value="-96.834488"/>
+        <pref name="map/west" value="-96.838189"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
