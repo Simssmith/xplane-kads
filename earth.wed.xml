@@ -41,7 +41,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="2445"/>
+                <sel id="489"/>
             </selection>
         </object>
         <object class="WED_KeyObjects" id="3" parent_id="1">
@@ -284,6 +284,18 @@
                 <child id="457"/>
                 <child id="464"/>
                 <child id="477"/>
+                <child id="2446"/>
+                <child id="2453"/>
+                <child id="2479"/>
+                <child id="2491"/>
+                <child id="2500"/>
+                <child id="2508"/>
+                <child id="2515"/>
+                <child id="2529"/>
+                <child id="2544"/>
+                <child id="2550"/>
+                <child id="2560"/>
+                <child id="2566"/>
             </children>
             <hierarchy hidden="0" locked="1" name="East Apron"/>
             <taxiway heading="159.87" roughness="0.25" surface="Concrete"/>
@@ -4451,6 +4463,7 @@
                 <child id="613"/>
                 <child id="626"/>
                 <child id="639"/>
+                <child id="2573"/>
             </children>
             <hierarchy hidden="0" locked="1" name="West Apron"/>
             <taxiway heading="159.87" roughness="0.25" surface="Concrete"/>
@@ -4493,6 +4506,10 @@
                 <child id="522"/>
                 <child id="523"/>
                 <child id="524"/>
+                <child id="2582"/>
+                <child id="2583"/>
+                <child id="2584"/>
+                <child id="2585"/>
                 <child id="525"/>
                 <child id="526"/>
                 <child id="527"/>
@@ -18478,6 +18495,1195 @@
             <point heading="91.85" latitude="32.959405163" longitude="-96.837689612"/>
             <ramp_start airlines="" ramp_op_type="None" traffic="14" type="Misc" width="C"/>
         </object>
+        <object class="WED_AirportChain" id="2446" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2447"/>
+                <child id="2452"/>
+                <child id="2448"/>
+                <child id="2449"/>
+                <child id="2450"/>
+                <child id="2451"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Linear Feature 3"/>
+            <airport_chain closed="1"/>
+        </object>
+        <object class="WED_AirportNode" id="2447" parent_id="2446">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961415048" longitude="-96.831908149" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2448" parent_id="2446">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961345137" longitude="-96.832027022" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2449" parent_id="2446">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000041946" ctrl_latitude_lo="-0.000041946" ctrl_longitude_hi="-0.000024441" ctrl_longitude_lo="0.000024441" latitude="32.961406658" longitude="-96.832190333" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2450" parent_id="2446">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000140753" ctrl_latitude_lo="-0.000140753" ctrl_longitude_hi="-0.000066658" ctrl_longitude_lo="0.000066658" latitude="32.961634101" longitude="-96.832303651" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2451" parent_id="2446">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961835443" longitude="-96.832241437" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2452" parent_id="2446">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="-0.000007457" ctrl_latitude_lo="0.000007457" ctrl_longitude_hi="-0.000027774" ctrl_longitude_lo="0.000027774" latitude="32.961379322" longitude="-96.831910206" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportChain" id="2453" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2454"/>
+                <child id="2455"/>
+                <child id="2456"/>
+                <child id="2457"/>
+                <child id="2458"/>
+                <child id="2459"/>
+                <child id="2460"/>
+                <child id="2461"/>
+                <child id="2462"/>
+                <child id="2463"/>
+                <child id="2464"/>
+                <child id="2465"/>
+                <child id="2466"/>
+                <child id="2467"/>
+                <child id="2468"/>
+                <child id="2469"/>
+                <child id="2470"/>
+                <child id="2471"/>
+                <child id="2472"/>
+                <child id="2473"/>
+                <child id="2490"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Linear Feature 4"/>
+            <airport_chain closed="1"/>
+        </object>
+        <object class="WED_AirportNode" id="2454" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.962093330" longitude="-96.831421978" split="1"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2455" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961980056" longitude="-96.831365049" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2456" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.962067400" longitude="-96.831064135" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2457" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.962030552" longitude="-96.830977927" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2458" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="-0.000008103" ctrl_latitude_lo="0.000008103" ctrl_longitude_hi="0.000015176" ctrl_longitude_lo="-0.000015176" latitude="32.962005987" longitude="-96.830932384" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2459" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961963679" longitude="-96.830820151" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2460" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961865418" longitude="-96.830759968" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2461" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point ctrl_latitude_hi="-0.000024512" ctrl_latitude_lo="0.000024512" ctrl_longitude_hi="-0.000052585" ctrl_longitude_lo="0.000052585" latitude="32.961727578" longitude="-96.830789246" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2462" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961672988" longitude="-96.830901479" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2463" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 10"/>
+            <point ctrl_latitude_hi="0.000031044" ctrl_latitude_lo="-0.000031044" ctrl_longitude_hi="-0.000013796" ctrl_longitude_lo="0.000013796" latitude="32.961674353" longitude="-96.830987687" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2464" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 11"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961921372" longitude="-96.831095040" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2465" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 12"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961885889" longitude="-96.831227142" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2466" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 13"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961782168" longitude="-96.831614264" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2467" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 14"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961511948" longitude="-96.831484139" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2468" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 15"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961435559" longitude="-96.831711282" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2469" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 16"/>
+            <point ctrl_latitude_hi="0.000059314" ctrl_latitude_lo="-0.000059314" ctrl_longitude_hi="-0.000052449" ctrl_longitude_lo="0.000052449" latitude="32.961488945" longitude="-96.831871866" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2470" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 17"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961671984" longitude="-96.832033461" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2471" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 18"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961754182" longitude="-96.832112239" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2472" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 19"/>
+            <point ctrl_latitude_hi="0.000011741" ctrl_latitude_lo="-0.000011741" ctrl_longitude_hi="-0.000009847" ctrl_longitude_lo="0.000009847" latitude="32.961827058" longitude="-96.832170817" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2473" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 20"/>
+            <point ctrl_latitude_hi="0.000004840" ctrl_latitude_lo="-0.000005218" ctrl_longitude_hi="0.000014422" ctrl_longitude_lo="-0.000015548" latitude="32.961868581" longitude="-96.832152638" split="1"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportChain" id="2479" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2480"/>
+                <child id="2481"/>
+                <child id="2482"/>
+                <child id="2483"/>
+                <child id="2484"/>
+                <child id="2485"/>
+                <child id="2486"/>
+                <child id="2487"/>
+                <child id="2488"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Linear Feature 6"/>
+            <airport_chain closed="1"/>
+        </object>
+        <object class="WED_AirportNode" id="2480" parent_id="2479">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961761184" longitude="-96.830289516" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2481" parent_id="2479">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="-0.000009805" ctrl_latitude_lo="0.000009805" ctrl_longitude_hi="-0.000042569" ctrl_longitude_lo="0.000042569" latitude="32.961721195" longitude="-96.830324956" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2482" parent_id="2479">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961707865" longitude="-96.830394613" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2483" parent_id="2479">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961701713" longitude="-96.830475269" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2484" parent_id="2479">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961717094" longitude="-96.830571812" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2485" parent_id="2479">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point ctrl_latitude_hi="0.000051825" ctrl_latitude_lo="-0.000051825" ctrl_longitude_hi="-0.000015024" ctrl_longitude_lo="0.000015024" latitude="32.961795021" longitude="-96.830648802" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2486" parent_id="2479">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point ctrl_latitude_hi="0.000015407" ctrl_latitude_lo="-0.000015407" ctrl_longitude_hi="-0.000001669" ctrl_longitude_lo="0.000001669" latitude="32.961878074" longitude="-96.830673243" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2487" parent_id="2479">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961909860" longitude="-96.830626805" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2488" parent_id="2479">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.961989838" longitude="-96.830316402" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2490" parent_id="2453">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 20"/>
+            <point ctrl_latitude_hi="0.000002138" ctrl_latitude_lo="-0.000027383" ctrl_longitude_hi="0.000006963" ctrl_longitude_lo="-0.000089190" latitude="32.962090041" longitude="-96.831432692" split="1"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportChain" id="2491" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2492"/>
+                <child id="2493"/>
+                <child id="2494"/>
+                <child id="2495"/>
+                <child id="2496"/>
+                <child id="2497"/>
+                <child id="2498"/>
+                <child id="2499"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Linear Feature 7"/>
+            <airport_chain closed="1"/>
+        </object>
+        <object class="WED_AirportNode" id="2492" parent_id="2491">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000010254" ctrl_latitude_lo="-0.000010254" ctrl_longitude_hi="0.000029999" ctrl_longitude_lo="-0.000029999" latitude="32.969387485" longitude="-96.832254563" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2493" parent_id="2491">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000016779" ctrl_latitude_lo="-0.000016779" ctrl_longitude_hi="0.000054442" ctrl_longitude_lo="-0.000054442" latitude="32.969534455" longitude="-96.831752646" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2494" parent_id="2491">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="-0.000010254" ctrl_latitude_lo="0.000010254" ctrl_longitude_hi="0.000005555" ctrl_longitude_lo="-0.000005555" latitude="32.969549317" longitude="-96.831691629" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2495" parent_id="2491">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.969465098" longitude="-96.831652263" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2496" parent_id="2491">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="-0.000014914" ctrl_latitude_lo="0.000014914" ctrl_longitude_hi="-0.000046664" ctrl_longitude_lo="0.000046664" latitude="32.969440328" longitude="-96.831693597" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2497" parent_id="2491">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point ctrl_latitude_hi="-0.000011186" ctrl_latitude_lo="0.000011186" ctrl_longitude_hi="-0.000031110" ctrl_longitude_lo="0.000031110" latitude="32.969286753" longitude="-96.832191577" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2498" parent_id="2491">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.969291707" longitude="-96.832225038" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2499" parent_id="2491">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.969341248" longitude="-96.832268341" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportChain" id="2500" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2501"/>
+                <child id="2502"/>
+                <child id="2503"/>
+                <child id="2504"/>
+                <child id="2505"/>
+                <child id="2506"/>
+                <child id="2507"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Linear Feature 8"/>
+            <airport_chain closed="1"/>
+        </object>
+        <object class="WED_AirportNode" id="2501" parent_id="2500">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.968965700" longitude="-96.833490730" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2502" parent_id="2500">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.968927554" longitude="-96.833466913" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2503" parent_id="2500">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="-0.000014532" ctrl_latitude_lo="0.000014532" ctrl_longitude_hi="-0.000054128" ctrl_longitude_lo="0.000054128" latitude="32.968862161" longitude="-96.833499390" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2504" parent_id="2500">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.968789502" longitude="-96.833759204" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2505" parent_id="2500">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="-0.000010899" ctrl_latitude_lo="0.000010899" ctrl_longitude_hi="-0.000045467" ctrl_longitude_lo="0.000045467" latitude="32.968687779" longitude="-96.834077477" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2506" parent_id="2500">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point ctrl_latitude_hi="0.000036330" ctrl_latitude_lo="-0.000036330" ctrl_longitude_hi="-0.000023816" ctrl_longitude_lo="0.000023816" latitude="32.968707760" longitude="-96.834142430" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2507" parent_id="2500">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point ctrl_latitude_hi="0.000005449" ctrl_latitude_lo="-0.000005449" ctrl_longitude_hi="0.000025981" ctrl_longitude_lo="-0.000025981" latitude="32.968787685" longitude="-96.834151091" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportChain" id="2508" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2509"/>
+                <child id="2510"/>
+                <child id="2511"/>
+                <child id="2512"/>
+                <child id="2513"/>
+                <child id="2514"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Linear Feature 9"/>
+            <airport_chain closed="1"/>
+        </object>
+        <object class="WED_AirportNode" id="2509" parent_id="2508">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.969013543" longitude="-96.833352340" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2510" parent_id="2508">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.969094459" longitude="-96.833086620" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2511" parent_id="2508">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.969200145" longitude="-96.832789408" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2512" parent_id="2508">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.969150604" longitude="-96.832767757" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2513" parent_id="2508">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.969082899" longitude="-96.832813027" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2514" parent_id="2508">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.968927673" longitude="-96.833303133" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportChain" id="2515" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2516"/>
+                <child id="2517"/>
+                <child id="2518"/>
+                <child id="2519"/>
+                <child id="2520"/>
+                <child id="2521"/>
+                <child id="2522"/>
+                <child id="2523"/>
+                <child id="2524"/>
+                <child id="2525"/>
+                <child id="2526"/>
+                <child id="2527"/>
+                <child id="2528"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Linear Feature 10"/>
+            <airport_chain closed="1"/>
+        </object>
+        <object class="WED_AirportNode" id="2516" parent_id="2515">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971168680" longitude="-96.835820905" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2517" parent_id="2515">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971352427" longitude="-96.835267589" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2518" parent_id="2515">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971408035" longitude="-96.835086032" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2519" parent_id="2515">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971514416" longitude="-96.834936175" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2520" parent_id="2515">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971654644" longitude="-96.834766145" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2521" parent_id="2515">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971690910" longitude="-96.834708508" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2522" parent_id="2515">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971683657" longitude="-96.834659517" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2523" parent_id="2515">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971623214" longitude="-96.834645107" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2524" parent_id="2515">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971466061" longitude="-96.834823782" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2525" parent_id="2515">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 10"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971333086" longitude="-96.835034158" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2526" parent_id="2515">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 11"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971248465" longitude="-96.835209951" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2527" parent_id="2515">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 12"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971142085" longitude="-96.835567302" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2528" parent_id="2515">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 13"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971074388" longitude="-96.835794969" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportChain" id="2529" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2530"/>
+                <child id="2531"/>
+                <child id="2532"/>
+                <child id="2533"/>
+                <child id="2534"/>
+                <child id="2535"/>
+                <child id="2536"/>
+                <child id="2537"/>
+                <child id="2538"/>
+                <child id="2539"/>
+                <child id="2540"/>
+                <child id="2541"/>
+                <child id="2542"/>
+                <child id="2543"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Linear Feature 11"/>
+            <airport_chain closed="1"/>
+        </object>
+        <object class="WED_AirportNode" id="2530" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.970857028" longitude="-96.835744744" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2531" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.970922967" longitude="-96.835773562" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2532" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.970964727" longitude="-96.835744744" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2533" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971046051" longitude="-96.835485376" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2534" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971129573" longitude="-96.835197190" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2535" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971208699" longitude="-96.835000700" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2536" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971287825" longitude="-96.834861847" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2537" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971384534" longitude="-96.834722994" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2538" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971474649" longitude="-96.834620819" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2539" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 10"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971402117" longitude="-96.834505544" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2540" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 11"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971293682" longitude="-96.834485426" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2541" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 12"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971181587" longitude="-96.834626899" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2542" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 13"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971232139" longitude="-96.834768371" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2543" parent_id="2529">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 14"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971111253" longitude="-96.834904605" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportChain" id="2544" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2545"/>
+                <child id="2546"/>
+                <child id="2547"/>
+                <child id="2548"/>
+                <child id="2549"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Linear Feature 12"/>
+            <airport_chain closed="1"/>
+        </object>
+        <object class="WED_AirportNode" id="2545" parent_id="2544">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000034678" ctrl_latitude_lo="-0.000034678" ctrl_longitude_hi="0.000037399" ctrl_longitude_lo="-0.000037399" latitude="32.971849268" longitude="-96.834549144" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2546" parent_id="2544">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971936789" longitude="-96.834458599" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2547" parent_id="2544">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971867433" longitude="-96.834379865" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2548" parent_id="2544">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="-0.000034678" ctrl_latitude_lo="0.000034678" ctrl_longitude_hi="-0.000043304" ctrl_longitude_lo="0.000043304" latitude="32.971770004" longitude="-96.834488124" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2549" parent_id="2544">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.971806333" longitude="-96.834566859" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportChain" id="2550" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2551"/>
+                <child id="2552"/>
+                <child id="2553"/>
+                <child id="2554"/>
+                <child id="2555"/>
+                <child id="2556"/>
+                <child id="2557"/>
+                <child id="2558"/>
+                <child id="2559"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Linear Feature 13"/>
+            <airport_chain closed="1"/>
+        </object>
+        <object class="WED_AirportNode" id="2551" parent_id="2550">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000067210" ctrl_latitude_lo="-0.000067210" ctrl_longitude_hi="0.000064956" ctrl_longitude_lo="-0.000064956" latitude="32.972529229" longitude="-96.833420702" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2552" parent_id="2550">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000061760" ctrl_latitude_lo="-0.000061760" ctrl_longitude_hi="0.000075782" ctrl_longitude_lo="-0.000075782" latitude="32.972852562" longitude="-96.833046121" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2553" parent_id="2550">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.972890708" longitude="-96.832864243" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2554" parent_id="2550">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.972816233" longitude="-96.832766808" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2555" parent_id="2550">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.972776270" longitude="-96.832812278" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2556" parent_id="2550">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.972788986" longitude="-96.832911877" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2557" parent_id="2550">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.972558293" longitude="-96.833182529" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2558" parent_id="2550">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.972418424" longitude="-96.833215007" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2559" parent_id="2550">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 9"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.972329416" longitude="-96.833321102" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportChain" id="2560" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2561"/>
+                <child id="2562"/>
+                <child id="2563"/>
+                <child id="2564"/>
+                <child id="2565"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Linear Feature 14"/>
+            <airport_chain closed="1"/>
+        </object>
+        <object class="WED_AirportNode" id="2561" parent_id="2560">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000083522" ctrl_latitude_lo="-0.000083522" ctrl_longitude_hi="0.000089077" ctrl_longitude_lo="-0.000089077" latitude="32.973103741" longitude="-96.832756390" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2562" parent_id="2560">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000057146" ctrl_latitude_lo="-0.000057146" ctrl_longitude_hi="0.000089077" ctrl_longitude_lo="-0.000089077" latitude="32.973330129" longitude="-96.832502260" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2563" parent_id="2560">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.973349911" longitude="-96.832334586" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2564" parent_id="2560">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.973259795" longitude="-96.832219310" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2565" parent_id="2560">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.972890541" longitude="-96.832667314" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportChain" id="2566" parent_id="23">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2567"/>
+                <child id="2568"/>
+                <child id="2569"/>
+                <child id="2570"/>
+                <child id="2571"/>
+                <child id="2572"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Linear Feature 15"/>
+            <airport_chain closed="1"/>
+        </object>
+        <object class="WED_AirportNode" id="2567" parent_id="2566">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.973530283" longitude="-96.832155520" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2568" parent_id="2566">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000081066" ctrl_latitude_lo="-0.000081066" ctrl_longitude_hi="0.000098420" ctrl_longitude_lo="-0.000098420" latitude="32.973672899" longitude="-96.832121520" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2569" parent_id="2566">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000054044" ctrl_latitude_lo="-0.000054044" ctrl_longitude_hi="0.000069788" ctrl_longitude_lo="-0.000069788" latitude="32.973887574" longitude="-96.831874576" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2570" parent_id="2566">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.973910092" longitude="-96.831731420" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2571" parent_id="2566">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.973814014" longitude="-96.831597212" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2572" parent_id="2566">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.973428199" longitude="-96.832057100" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportChain" id="2573" parent_id="489">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2574"/>
+                <child id="2575"/>
+                <child id="2576"/>
+                <child id="2577"/>
+                <child id="2578"/>
+                <child id="2579"/>
+                <child id="2580"/>
+                <child id="2581"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Linear Feature 16"/>
+            <airport_chain closed="1"/>
+        </object>
+        <object class="WED_AirportNode" id="2574" parent_id="2573">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.962201807" longitude="-96.835583531" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2575" parent_id="2573">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.962254100" longitude="-96.835372113" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2576" parent_id="2573">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="-0.000021532" ctrl_latitude_lo="0.000021532" ctrl_longitude_hi="0.000012221" ctrl_longitude_lo="-0.000012221" latitude="32.962244872" longitude="-96.835323230" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2577" parent_id="2573">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.962108500" longitude="-96.835265793" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2578" parent_id="2573">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="-0.000006152" ctrl_latitude_lo="0.000006152" ctrl_longitude_hi="-0.000021997" ctrl_longitude_lo="0.000021997" latitude="32.962089728" longitude="-96.835284252" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2579" parent_id="2573">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 6"/>
+            <point ctrl_latitude_hi="-0.000012304" ctrl_latitude_lo="0.000012304" ctrl_longitude_hi="-0.000045216" ctrl_longitude_lo="0.000045216" latitude="32.962027497" longitude="-96.835493098" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2580" parent_id="2573">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 7"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.962053130" longitude="-96.835548091" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2581" parent_id="2573">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 8"/>
+            <point ctrl_latitude_hi="0.000049217" ctrl_latitude_lo="-0.000049217" ctrl_longitude_hi="-0.000018331" ctrl_longitude_lo="0.000018331" latitude="32.962155666" longitude="-96.835584753" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2582" parent_id="490">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.962845758" longitude="-96.835590216" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2583" parent_id="490">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.962766235" longitude="-96.835817002" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2584" parent_id="490">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.962667911" longitude="-96.835779433" split="0"/>
+            <markings/>
+        </object>
+        <object class="WED_AirportNode" id="2585" parent_id="490">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="unnamed entity"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.962733802" longitude="-96.835541740" split="0"/>
+            <markings/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
@@ -18495,21 +19701,20 @@
             <item value="1108"/>
             <item value="1115"/>
             <item value="2074"/>
-            <item value="2411"/>
             <item value="2412"/>
             <item value="2442"/>
         </pref>
         <pref name="doc/export_target" value="3"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-96.836734"/>
-        <pref name="map/north" value="32.960356"/>
+        <pref name="map/east" value="-96.829966"/>
+        <pref name="map/north" value="32.962252"/>
         <pref name="map/obj_density" value="6"/>
-        <pref name="map/pavement_alpha" value="2"/>
+        <pref name="map/pavement_alpha" value="1"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="32.958907"/>
-        <pref name="map/vertices_vis" value="0"/>
-        <pref name="map/west" value="-96.838189"/>
+        <pref name="map/south" value="32.955036"/>
+        <pref name="map/vertices_vis" value="1"/>
+        <pref name="map/west" value="-96.837210"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -18580,10 +19785,10 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="384"/>
         <pref name="window/main_split2" value="1290"/>
-        <pref name="window/prev_split" value="683"/>
-        <pref name="window/prop_split" value="771"/>
+        <pref name="window/prev_split" value="693"/>
+        <pref name="window/prop_split" value="781"/>
         <pref name="window/width" value="1920"/>
-        <pref name="window/x_loc" value="-3848"/>
+        <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
     </prefs>
 </doc>
