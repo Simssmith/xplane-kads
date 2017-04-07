@@ -41,11 +41,8 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="2716"/>
-                <sel id="2717"/>
-                <sel id="2718"/>
-                <sel id="2719"/>
-                <sel id="2722"/>
+                <sel id="1494"/>
+                <sel id="1497"/>
             </selection>
         </object>
         <object class="WED_KeyObjects" id="3" parent_id="1">
@@ -70,6 +67,7 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="2730"/>
                 <child id="11"/>
                 <child id="1058"/>
                 <child id="1115"/>
@@ -7194,6 +7192,8 @@
                 <child id="998"/>
                 <child id="1001"/>
                 <child id="1004"/>
+                <child id="2778"/>
+                <child id="2775"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Exclusion Zones"/>
         </object>
@@ -9795,6 +9795,7 @@
                 <child id="2386"/>
                 <child id="2385"/>
                 <child id="2380"/>
+                <child id="2769"/>
             </children>
             <hierarchy hidden="0" locked="0" name="East"/>
         </object>
@@ -11956,7 +11957,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="Sing_Tank_Small.obj"/>
             <point heading="0.00" latitude="32.973801567" longitude="-96.840996108"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Small.obj" show_level="5 Too many"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Small.obj" show_level="3 Tons"/>
         </object>
         <object class="WED_ObjPlacement" id="1495" parent_id="767">
             <sources/>
@@ -11980,7 +11981,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="Sing_Tank_Small.obj"/>
             <point heading="0.00" latitude="32.974037030" longitude="-96.840982162"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Small.obj" show_level="5 Too many"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Small.obj" show_level="4 Mega tons"/>
         </object>
         <object class="WED_ObjPlacement" id="1498" parent_id="767">
             <sources/>
@@ -12821,7 +12822,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="jet_b_dal.obj"/>
-            <point heading="336.25" latitude="32.975021384" longitude="-96.837169754"/>
+            <point heading="336.25" latitude="32.974942886" longitude="-96.837133472"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/jet_b_dal.obj" show_level="3 Tons"/>
         </object>
         <object class="WED_FacadeNode" id="1648" parent_id="1287">
@@ -17113,7 +17114,7 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="Lg_Open_Ends.obj"/>
             <point heading="172.71" latitude="32.965576190" longitude="-96.831648866"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Vintage_Airports/Hangars/Lg_Open_Ends.obj" show_level="5 Too many"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Vintage_Airports/Hangars/Lg_Open_Ends.obj" show_level="4 Mega tons"/>
         </object>
         <object class="WED_FacadeRing" id="2223" parent_id="2224">
             <sources/>
@@ -20727,6 +20728,416 @@
             </children>
             <hierarchy hidden="0" locked="0" name="East Runway Hanger"/>
         </object>
+        <object class="WED_ObjPlacement" id="2727" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="jet_c.obj"/>
+            <point heading="357.51" latitude="32.975270652" longitude="-96.835230975"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/cargo/jet_c.obj" show_level="3 Tons"/>
+        </object>
+        <object class="WED_Group" id="2730" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2763"/>
+                <child id="2749"/>
+                <child id="2736"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Ground Obects"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2733" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turboprop_b.obj"/>
+            <point heading="201.32" latitude="32.974785503" longitude="-96.831969916"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/turboprop_b.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2734" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="prop_a.obj"/>
+            <point heading="83.09" latitude="32.974127158" longitude="-96.832159374"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/prop_a.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2735" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="prop_a.obj"/>
+            <point heading="182.54" latitude="32.974336119" longitude="-96.831218962"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/prop_a.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Group" id="2736" parent_id="2730">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2795"/>
+                <child id="2793"/>
+                <child id="2738"/>
+                <child id="2737"/>
+                <child id="2735"/>
+                <child id="2734"/>
+                <child id="2733"/>
+                <child id="2727"/>
+                <child id="2741"/>
+                <child id="2739"/>
+                <child id="2766"/>
+                <child id="2767"/>
+                <child id="2788"/>
+                <child id="2787"/>
+                <child id="2786"/>
+                <child id="2785"/>
+                <child id="2784"/>
+                <child id="2783"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Aircraft"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2737" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turboprop_b.obj"/>
+            <point heading="225.44" latitude="32.971683671" longitude="-96.833906672"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/turboprop_b.obj" show_level="3 Tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2738" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="prop_a.obj"/>
+            <point heading="265.71" latitude="32.972121883" longitude="-96.832995521"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/prop_a.obj" show_level="3 Tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2739" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="prop_a.obj"/>
+            <point heading="75.62" latitude="32.966396122" longitude="-96.832479057"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/prop_a.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2741" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="jet_b.obj"/>
+            <point heading="248.48" latitude="32.970091696" longitude="-96.835209987"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/jet_b.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2742" parent_id="2749">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Cargo_Dolly_1.obj"/>
+            <point heading="70.56" latitude="32.966737789" longitude="-96.833648165"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Cargo_Dolly_1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2744" parent_id="2749">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Cargo_Dolly_1.obj"/>
+            <point heading="71.18" latitude="32.966769702" longitude="-96.833658758"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Cargo_Dolly_1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2746" parent_id="2749">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Cargo_Dolly_1.obj"/>
+            <point heading="69.44" latitude="32.966752222" longitude="-96.833711543"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Cargo_Dolly_1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2747" parent_id="2749">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Cargo_Dolly_1.obj"/>
+            <point heading="71.15" latitude="32.966722054" longitude="-96.833698861"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Cargo_Dolly_1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Group" id="2749" parent_id="2730">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2760"/>
+                <child id="2759"/>
+                <child id="2747"/>
+                <child id="2746"/>
+                <child id="2744"/>
+                <child id="2742"/>
+                <child id="2755"/>
+                <child id="2754"/>
+                <child id="2753"/>
+                <child id="2752"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Ramp Equipment"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2752" parent_id="2749">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Cargo_Dolly_wPod.obj"/>
+            <point heading="156.64" latitude="32.968280410" longitude="-96.834488852"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Cargo_Dolly_wPod.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2753" parent_id="2749">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Cargo_Dolly_wPod.obj"/>
+            <point heading="159.04" latitude="32.968234582" longitude="-96.834487933"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Cargo_Dolly_wPod.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2754" parent_id="2749">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Cargo_Dolly_wPod.obj"/>
+            <point heading="158.39" latitude="32.968189347" longitude="-96.834490536"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Cargo_Dolly_wPod.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2755" parent_id="2749">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Cargo_Dolly_wPod.obj"/>
+            <point heading="158.75" latitude="32.968143757" longitude="-96.834489560"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Cargo_Dolly_wPod.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2759" parent_id="2749">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="GPU_1.obj"/>
+            <point heading="0.00" latitude="32.969614366" longitude="-96.832241798"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/GPU_1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2760" parent_id="2749">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="GPU_1.obj"/>
+            <point heading="72.35" latitude="32.974316423" longitude="-96.836117214"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/GPU_1.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2762" parent_id="2763">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="car_or_truck.obj"/>
+            <point heading="166.37" latitude="32.975418876" longitude="-96.837655731"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/cars/car_or_truck.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_Group" id="2763" parent_id="2730">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2762"/>
+                <child id="2764"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Car or Truck"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2764" parent_id="2763">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Large_Fuel_Truck.obj"/>
+            <point heading="164.58" latitude="32.974386864" longitude="-96.837132146"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/vehicles/Large_Fuel_Truck.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2766" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="jet_b_tyr.obj"/>
+            <point heading="71.43" latitude="32.966933860" longitude="-96.833723530"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/jet_b_tyr.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2767" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="jet_b_dal.obj"/>
+            <point heading="70.20" latitude="32.967254579" longitude="-96.833860055"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/jet_b_dal.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_FacadeRing" id="2768" parent_id="2769">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2770"/>
+                <child id="2771"/>
+                <child id="2772"/>
+                <child id="2773"/>
+                <child id="2774"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Facade 1 outer ring"/>
+        </object>
+        <object class="WED_FacadePlacement" id="2769" parent_id="1059">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2768"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="point_building_60x60_80.fac"/>
+            <facade_placement height="10.0" pick_walls="0" resource="lib/g10/autogen/point_building_60x60_80.fac" show_level="1 Default"/>
+        </object>
+        <object class="WED_FacadeNode" id="2770" parent_id="2768">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.972715346" longitude="-96.831138283" split="0"/>
+            <facade_node wall_type="Wall 1"/>
+        </object>
+        <object class="WED_FacadeNode" id="2771" parent_id="2768">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.972944969" longitude="-96.830815376" split="0"/>
+            <facade_node wall_type="Wall 1"/>
+        </object>
+        <object class="WED_FacadeNode" id="2772" parent_id="2768">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.972692691" longitude="-96.830503946" split="0"/>
+            <facade_node wall_type="Wall 1"/>
+        </object>
+        <object class="WED_FacadeNode" id="2773" parent_id="2768">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.972456652" longitude="-96.830826621" split="0"/>
+            <facade_node wall_type="Wall 1"/>
+        </object>
+        <object class="WED_FacadeNode" id="2774" parent_id="2768">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Node 5"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="32.972728247" longitude="-96.831144433" split="0"/>
+            <facade_node wall_type="Wall 1"/>
+        </object>
+        <object class="WED_ExclusionZone" id="2775" parent_id="767">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2776"/>
+                <child id="2777"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 1"/>
+            <excluzions/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2776" parent_id="2775">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="32.958533492" longitude="-96.830331164"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2777" parent_id="2775">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="32.958868380" longitude="-96.829901606"/>
+        </object>
+        <object class="WED_ExclusionZone" id="2778" parent_id="767">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="2779"/>
+                <child id="2780"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 2"/>
+            <excluzions/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2779" parent_id="2778">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="32.958182144" longitude="-96.838451929"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="2780" parent_id="2778">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="32.956495776" longitude="-96.833555204"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2783" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="prop_a.obj"/>
+            <point heading="45.00" latitude="32.973457131" longitude="-96.833863169"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/prop_a.obj" show_level="2 A lot"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2784" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="prop_a.obj"/>
+            <point heading="45.00" latitude="32.973307126" longitude="-96.833679156"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/prop_a.obj" show_level="2 A lot"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2785" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="prop_a.obj"/>
+            <point heading="220.46" latitude="32.973719293" longitude="-96.833036608"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/prop_a.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2786" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="prop_a.obj"/>
+            <point heading="230.33" latitude="32.973639193" longitude="-96.832942866"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/airliners/prop_a.obj" show_level="3 Tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2787" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turboprop_b.obj"/>
+            <point heading="220.24" latitude="32.973487732" longitude="-96.832779685"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/general_aviation/turboprop_b.obj" show_level="3 Tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2788" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="jet_a.obj"/>
+            <point heading="223.36" latitude="32.973205198" longitude="-96.833281381"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/general_aviation/jet_a.obj" show_level="3 Tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2793" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="turboprop_c_fdx.obj"/>
+            <point heading="339.39" latitude="32.974799417" longitude="-96.837614819"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/cargo/turboprop_c_fdx.obj" show_level="1 Default"/>
+        </object>
+        <object class="WED_ObjPlacement" id="2795" parent_id="2736">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="prop_a.obj"/>
+            <point heading="157.56" latitude="32.972645842" longitude="-96.836431463"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/aircraft/cargo/prop_a.obj" show_level="1 Default"/>
+        </object>
     </objects>
     <prefs>
         <pref name="PropertyPane0/Closed">
@@ -20741,26 +21152,30 @@
             <item value="767"/>
             <item value="1035"/>
             <item value="1058"/>
+            <item value="1059"/>
             <item value="1108"/>
             <item value="1115"/>
             <item value="1804"/>
             <item value="1947"/>
             <item value="2074"/>
+            <item value="2411"/>
             <item value="2412"/>
             <item value="2442"/>
             <item value="2604"/>
+            <item value="2749"/>
+            <item value="2763"/>
         </pref>
         <pref name="doc/export_target" value="3"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-96.824949"/>
-        <pref name="map/north" value="32.969175"/>
+        <pref name="map/east" value="-96.822354"/>
+        <pref name="map/north" value="32.979913"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="1"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="32.950739"/>
+        <pref name="map/south" value="32.963407"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-96.843454"/>
+        <pref name="map/west" value="-96.838924"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -20768,7 +21183,7 @@
         <pref name="map_Boundary_Markings" value=""/>
         <pref name="map_Exclusions_Exclusions" value=""/>
         <pref name="map_Facades_Height" value="10.000000"/>
-        <pref name="map_Facades_Resource" value="lib/airport/Common_Elements/Fence_Facades/Fence.fac"/>
+        <pref name="map_Facades_Resource" value="lib/g10/autogen/point_building_60x60_80.fac"/>
         <pref name="map_Forests_Density" value="1.000000"/>
         <pref name="map_Forests_Resource" value="lib/g10/forests/AG_trees_EU1.for"/>
         <pref name="map_Helipad_Edge Lights" value="15"/>
@@ -20782,10 +21197,10 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value=""/>
-        <pref name="map_Objects_Object" value="lib/airport/aircraft/general_aviation/prop_a.obj"/>
+        <pref name="map_Objects_Object" value="lib/airport/aircraft/cargo/prop_a.obj"/>
         <pref name="map_Objects_Show with" value="541"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
-        <pref name="map_Polygons_Resource" value="lib/g10/US/suburban/AGSParks.ags"/>
+        <pref name="map_Polygons_Resource" value="lib/airport/pavement/asphalt_1L.pol"/>
         <pref name="map_Polygons_Use Texture Map" value="0"/>
         <pref name="map_Ramp Start_Airlines" value=""/>
         <pref name="map_Ramp Start_Equipment Type" value=""/>
@@ -20831,8 +21246,8 @@
         <pref name="window/height" value="997"/>
         <pref name="window/main_split" value="384"/>
         <pref name="window/main_split2" value="1290"/>
-        <pref name="window/prev_split" value="703"/>
-        <pref name="window/prop_split" value="791"/>
+        <pref name="window/prev_split" value="713"/>
+        <pref name="window/prop_split" value="801"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-8"/>
         <pref name="window/y_loc" value="-8"/>
