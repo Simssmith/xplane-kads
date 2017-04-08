@@ -41,7 +41,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="1035"/>
+                <sel id="5"/>
             </selection>
         </object>
         <object class="WED_KeyObjects" id="3" parent_id="1">
@@ -74,7 +74,7 @@
                 <child id="2413"/>
             </children>
             <hierarchy hidden="0" locked="0" name="ADDISON"/>
-            <airport always_flatten="0" elevation="196.3" has_atc="1" icao="KADS" kind="Airport" scenery_id="41196"/>
+            <airport always_flatten="0" elevation="196.3" has_atc="1" icao="KADS" kind="Airport" scenery_id="51861"/>
             <meta_data>
                 <meta_data_entry pair="city,Dallas"/>
                 <meta_data_entry pair="country,United States"/>
@@ -22649,15 +22649,15 @@
         </pref>
         <pref name="doc/export_target" value="3"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-96.834050"/>
-        <pref name="map/north" value="32.964574"/>
+        <pref name="map/east" value="-96.820612"/>
+        <pref name="map/north" value="32.972496"/>
         <pref name="map/obj_density" value="6"/>
         <pref name="map/pavement_alpha" value="1"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="32.959958"/>
+        <pref name="map/south" value="32.949513"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-96.838497"/>
+        <pref name="map/west" value="-96.842749"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -22728,8 +22728,8 @@
         <pref name="window/height" value="1037"/>
         <pref name="window/main_split" value="384"/>
         <pref name="window/main_split2" value="1290"/>
-        <pref name="window/prev_split" value="523"/>
-        <pref name="window/prop_split" value="619"/>
+        <pref name="window/prev_split" value="533"/>
+        <pref name="window/prop_split" value="629"/>
         <pref name="window/width" value="1920"/>
         <pref name="window/x_loc" value="-3848"/>
         <pref name="window/y_loc" value="-8"/>
